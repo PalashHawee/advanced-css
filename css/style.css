@@ -267,5 +267,10 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../../img/nat-1.jpg);
-  background-size: cover; }
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8), url(../../img/nat-3.jpg));
+  background-size: cover;
+  background-color: #04a260;
+  transform: skew(-7deg);
+  margin-top: -15rem; }
+  .section-features > * {
+    transform: skew(7deg); }
